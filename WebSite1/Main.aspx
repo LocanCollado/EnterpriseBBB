@@ -94,9 +94,9 @@ body {font-family: Verdana,sans-serif;}
 </style>
 
 </head>
-<body style="background-color:#03253e">
+<body>
 
-<h1 style="color:goldenrod">PTCollege Calendar</h1>
+<h1>PTCollege Calendar</h1>
 
     <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
