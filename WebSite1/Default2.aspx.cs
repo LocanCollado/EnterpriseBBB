@@ -15,12 +15,22 @@ public partial class Default2 : System.Web.UI.Page
         public void openWin(object sender, EventArgs e)
         {
 
-            Response.Redirect("http://localhost:53291/signuppage.html");
+            Response.Redirect("http://localhost:51081/Signinpage.aspx");
         }
         public void openWin2(object sender, EventArgs e)
         {
 
             Response.Redirect("http://localhost:51081/Main.aspx");
         }
-    
+    public void openWin3(object sender, EventArgs e)
+    {
+
+        Response.Redirect("http://localhost:51081/Contact.aspx");
+    }
+    public void openWin4(object sender, EventArgs e)
+    {
+
+        Response.Redirect("http://localhost:51081/Default2.aspx");
+    }
+
 }

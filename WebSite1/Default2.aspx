@@ -25,13 +25,15 @@
             <asp:button runat="server" Text="Sign in" OnClick="openWin2"></asp:button>
             <br />
             <asp:button runat="server" Onclick="openWin" Text="Sign up button"></asp:button>
+        <br />
+            <asp:button runat="server" Onclick="openWin3" Text="Contact Us"></asp:button>
         
         
         </h3>
 <br />
         <br />
         <br />
-    <h2 style="height:550px; width:300px; border:double 6px; border-color:goldenrod;justify-content:right; font-family:'Freestyle Script'; font-size: 70px; background-color: #03253e;">
+    <h2 style="height:570px; width:300px; border:double 6px; border-color:goldenrod;justify-content:right; font-family:'Freestyle Script'; font-size: 70px; background-color: #03253e;">
         <img src="/unnamed.jpg" alt="logo" style="width:300px;height:400px;">
         
         Big Boss Bussiness

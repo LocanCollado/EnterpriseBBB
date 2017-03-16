@@ -23,8 +23,9 @@
     <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
 
     <div class="clearfix">
-      <button type="button"  class="cancelbtn">Cancel</button>
-      <button type="submit" class="signupbtn">Sign Up</button>
+      <asp:button runat="server" Onclick="openWin2" Text="Sign up"></asp:button>
+        <br />
+            <asp:button runat="server" Onclick="openWin4" Text="cancel"></asp:button>
     </div>
   </div>
 </form>
