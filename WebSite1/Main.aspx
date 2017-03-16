@@ -98,69 +98,188 @@ body {font-family: Verdana,sans-serif;}
 
 <h1>PTCollege Calendar</h1>
 
-<div class="month">      
-  <ul>
-    <li class="prev"><<</li>
-    <li class="next">>></li>
-    <li style="text-align:center">
-        <%--<form runat="server"><% this.Month.InnerText = GetMonth(1); %></form>--%>
-        <output id="Month" runat="server"></output>        
-      <br/>
-      <span style="font-size:18px">2016</span>
-    </li>
-  </ul>
-</div>
+    <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 70%;
+      margin: auto;
+  }
+  </style>
+    <div class="container">
+  <br/>
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+      <li data-target="#myCarousel" data-slide-to="7"></li>
+      <li data-target="#myCarousel" data-slide-to="8"></li>
+      <li data-target="#myCarousel" data-slide-to="9"></li>
+      <li data-target="#myCarousel" data-slide-to="10"></li>
+      <li data-target="#myCarousel" data-slide-to="11"></li>
+    </ol>
 
-<ul class="weekdays">
-  <li>Mo</li>
-  <li>Tu</li>
-  <li>We</li>
-  <li>Th</li>
-  <li>Fr</li>
-  <li>Sa</li>
-  <li>Su</li>
-</ul>
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+       <div class="title">January 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td></tr>
+<tr><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td></tr>
+<tr><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td></tr>
+<tr><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td></tr>
+<tr><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+      </div>
+
+      <div class="item">
+        <div class="title">February 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td></tr>
+<tr><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td></tr>
+<tr><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td></tr>
+<tr><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td></tr>
+<tr><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table></div> 
     
+      <div class="item">
+       <div class="title">March 2017</div>   
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td></tr>
+<tr><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td></tr>
+<tr><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td></tr>
+<tr><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td></tr>
+<tr><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+      </div>
+            <div class="item">
+               <div class="title">April 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td></tr>
+<tr><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td></tr>
+<tr><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td></tr>
+<tr><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td></tr>
+<tr><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td></tr>
+<tr><td><span class="date">30</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+                </div>
+         <div class="item">
+              <div class="title">May 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td></tr>
+<tr><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td></tr>
+<tr><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td></tr>
+<tr><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td></tr>
+<tr><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+              </div>
+         <div class="item">
+        <div class="title">June 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td></tr>
+<tr><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td></tr>
+<tr><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td></tr>
+<tr><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td></tr>
+<tr><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+              </div>
+         <div class="item">
+<div class="title">July 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td></tr>
+<tr><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td></tr>
+<tr><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td></tr>
+<tr><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td></tr>
+<tr><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td></tr>
+<tr><td><span class="date">30</span></td><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+              </div>
+         <div class="item">
+<div class="title">August 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td></tr>
+<tr><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td></tr>
+<tr><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td></tr>
+<tr><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td></tr>
+<tr><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+     </div>
+         <div class="item">
+<div class="title">September 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td></tr>
+<tr><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td></tr>
+<tr><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td></tr>
+<tr><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td></tr>
+<tr><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td></tr>
+</table>
+     </div>
+         <div class="item">
+<div class="title">October 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td></tr>
+<tr><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td></tr>
+<tr><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td></tr>
+<tr><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td></tr>
+<tr><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+     </div>
+         <div class="item">
+<div class="title">November 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td><td><span class="date">3</span></td><td><span class="date">4</span></td></tr>
+<tr><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td><td><span class="date">10</span></td><td><span class="date">11</span></td></tr>
+<tr><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td><td><span class="date">17</span></td><td><span class="date">18</span></td></tr>
+<tr><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td><td><span class="date">24</span></td><td><span class="date">25</span></td></tr>
+<tr><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+     </div>
+         <div class="item">
+<div class="title">December 2017</div>
+<table border="2"  border-spacing: "10px" align="Center"  height ="500" width="500" style="background-color:cadetblue">
+<tr><th>Sunday</th><th>Monday</th><th>Tuesday</th><th>Wednesday</th><th>Thursday</th><th>Friday</th><th>Saturday</th></tr>
+<tr><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">1</span></td><td><span class="date">2</span></td></tr>
+<tr><td><span class="date">3</span></td><td><span class="date">4</span></td><td><span class="date">5</span></td><td><span class="date">6</span></td><td><span class="date">7</span></td><td><span class="date">8</span></td><td><span class="date">9</span></td></tr>
+<tr><td><span class="date">10</span></td><td><span class="date">11</span></td><td><span class="date">12</span></td><td><span class="date">13</span></td><td><span class="date">14</span></td><td><span class="date">15</span></td><td><span class="date">16</span></td></tr>
+<tr><td><span class="date">17</span></td><td><span class="date">18</span></td><td><span class="date">19</span></td><td><span class="date">20</span></td><td><span class="date">21</span></td><td><span class="date">22</span></td><td><span class="date">23</span></td></tr>
+<tr><td><span class="date">24</span></td><td><span class="date">25</span></td><td><span class="date">26</span></td><td><span class="date">27</span></td><td><span class="date">28</span></td><td><span class="date">29</span></td><td><span class="date">30</span></td></tr>
+<tr><td><span class="date">31</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td><td><span class="date">&nbsp;</span></td></tr>
+</table>
+    </div>
 
-<ul class="days">  
-  <li>1<output id="week1day1" runat="server"></output></li>
-  <li>2</li>
-  <li>3</li>
-  <li>4</li>
-  <li>5</li>
-  <li>6</li>
-  <li>7</li>
-  <li>8</li>
-  <li>9</li>
-  <li>10</li>
-  <li>11</li>
-  <li>12</li>
-  <li>13</li>
-  <li>14</li>
-  <li>15</li>
-  <li>16</li>
-  <li>17</li>
-  <li>18</li>
-  <li>19</li>
-  <li>20</li>
-  <li>21</li>
-  <li>22</li>
-  <li>23</li>
-  <li>24</li>
-  <li>25</li>
-  <li>26</li>
-  <li>27</li>
-  <li>28</li>
-  <li>29</li>
-  <li>30</li>
-  <li>31</li>
-</ul>
-
-
-   <h3>
-      
-   </h3>
-
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+    </div>
 
 
 </body>
