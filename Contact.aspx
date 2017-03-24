@@ -9,7 +9,7 @@
 <body style="background-color:#03253e; color:goldenrod">
     <h2>Contact Us</h2>
 <form action="http://www.SnapHost.com/captcha/send.aspx" id="ContactUsCaptchaWebForm" method="post" onsubmit="return ValidateForm(this);" target="_top">
-<input name="skip_WhereToSend" type="hidden" value="krap9090@gmail.com" />
+<input name="skip_WhereToSend" type="hidden" value="locancollado@gmail.com" />
 <input name="skip_SnapHostID" type="hidden" value="NPDEJ6LCNT2R" />
 <input name="skip_WhereToReturn" type="hidden" value="http://localhost:51081/Default2.aspx" />
 <input name="skip_Subject" type="hidden" value="Contact Us Form" />
